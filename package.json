@@ -1,0 +1,36 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/nodemon app.js --exec babel-node --"
+  },
+  "author": "sara",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sarahalawfi/todo.git"
+  },
+  "keywords": [
+    "git",
+    "push",
+    "-u",
+    "origin",
+    "master"
+  ],
+  "bugs": {
+    "url": "https://github.com/sarahalawfi/todo/issues"
+  },
+  "homepage": "https://github.com/sarahalawfi/todo#readme",
+  "description": ""
+}
